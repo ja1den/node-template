@@ -13,4 +13,5 @@ fi
 docker build . -t $1
 
 # Log
-echo -e "\n${G}Build complete.${N}"
+echo
+echo -e "${G}Build complete.${N}"
